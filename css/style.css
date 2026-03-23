@@ -75,3 +75,29 @@ section{
     margin: 10px 0;
     border-radius: 5px;
 }
+.titulo-formacao{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: brown;
+    margin: 15px;
+    /*Propriedade Transition: no CSS serve para criar animações suaves quando um valor de estilo muda. propriedade All aplica a transição em todas as propriedades.
+    A propriedade '0.3s' signifca o tempo, com o estilo 'ease' configurando a transição para começar devagar, intensificar, e desacelerar no fim.*/
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.titulo-formacao:hover{
+    color: bisque;
+    transform:scale(1.05);
+    /*Scale: Função de escala (ou zoom)*/
+    text-shadow: 1px 1px 6px rgba(100,126,234, 0.4);
+}
+a{
+    color: cornflowerblue;
+    text-decoration: none;
+    border-bottom: 1px dotted goldenrod;
+}
+a:hover{
+    color: crimson;
+    border-bottom-style: solid;
+}
